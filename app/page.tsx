@@ -5,13 +5,19 @@ import Services from "@/app/components/Services";
 import About from "@/app/components/About";
 import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
+import Gallery from "@/app/components/Gallery";
+
 export default function Home() {
   return (
-    <main className="bg-[#0a0a0a] text-white min-h-screen" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+    <main
+      className="bg-[#0a0a0a] text-white min-h-screen"
+      style={{ fontFamily: "'DM Sans', sans-serif" }}
+    >
       <Navbar />
       <Hero />
       <Stats />
       <Services />
+      <Gallery />
       <About />
       <CTA />
       <Footer />
