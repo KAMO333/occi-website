@@ -12,7 +12,7 @@ import ContactForm from "@/app/components/ContactForm";
 export default function Home() {
   return (
     <main
-      className="bg-[#0a0a0a] text-white min-h-screen"
+      className="bg-[#0d1b3e] text-white min-h-screen"
       style={{ fontFamily: "'DM Sans', sans-serif" }}
     >
       <Navbar />

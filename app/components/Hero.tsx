@@ -3,22 +3,22 @@ const WA = () => <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(249,115,22,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(249,115,22,0.04) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
-      <div className="absolute bottom-0 left-0 right-0 h-64" style={{ background: "linear-gradient(to top, #0a0a0a, transparent)" }} />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full" style={{ background: "radial-gradient(circle, rgba(249,115,22,0.08) 0%, transparent 70%)" }} />
+      <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(rgba(43,123,200,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(43,123,200,0.04) 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
+      <div className="absolute bottom-0 left-0 right-0 h-64" style={{ background: "linear-gradient(to top, #0d1b3e, transparent)" }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full" style={{ background: "radial-gradient(circle, rgba(43,123,200,0.08) 0%, transparent 70%)" }} />
       <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-24">
-        <div className="inline-flex items-center gap-2 border border-orange-500/30 rounded-full px-4 py-1.5 mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-orange-500 inline-block" />
-          <span className="text-orange-400 text-xs font-medium tracking-wider uppercase">Serving Johannesburg since 2016</span>
+        <div className="inline-flex items-center gap-2 border border-[#2B7BC8]/30 rounded-full px-4 py-1.5 mb-8">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#2B7BC8] inline-block" />
+          <span className="text-[#4A9FE0] text-xs font-medium tracking-wider uppercase">Serving Johannesburg since 2016</span>
         </div>
         <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(4rem,12vw,9rem)", lineHeight: 0.95, marginBottom: 24, letterSpacing: "0.03em" }}>
           <span className="block text-white">CONNECT</span>
-          <span className="block" style={{ background: "linear-gradient(135deg,#f97316,#fb923c,#fdba74)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>YOUR BUSINESS</span>
+          <span className="block" style={{ color: "#4A9FE0" }}>YOUR BUSINESS</span>
           <span className="block text-white/20">TO THE FUTURE</span>
         </h1>
         <p className="text-white/50 text-lg max-w-xl mb-10 font-light leading-relaxed">Professional network cabling, fibre, Wi-Fi and CCTV installations across Johannesburg. Built right. Built to last.</p>
         <div className="flex flex-col sm:flex-row gap-4 mb-16">
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-orange-500 hover:bg-orange-400 text-white font-medium px-8 py-4 rounded transition-colors text-base"><WA /> Get a Quote on WhatsApp</a>
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 bg-[#2B7BC8] hover:bg-[#4A9FE0] text-white font-medium px-8 py-4 rounded transition-colors text-base"><WA /> Get a Quote on WhatsApp</a>
           <a href="#services" className="inline-flex items-center justify-center gap-2 border border-white/15 hover:border-white/30 text-white/70 hover:text-white font-medium px-8 py-4 rounded transition-colors text-base">View Our Services <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></a>
         </div>
         <div className="flex flex-wrap gap-3">{sectors.map((s) => <span key={s} className="text-xs text-white/30 border border-white/10 rounded-full px-3 py-1">{s}</span>)}</div>

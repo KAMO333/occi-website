@@ -38,8 +38,8 @@ export default function Gallery() {
     <section className="py-28 max-w-6xl mx-auto px-6">
       <FadeIn>
         <div className="mb-4 flex items-center gap-3">
-          <div className="h-px w-8 bg-orange-500" />
-          <span className="text-orange-400 text-xs tracking-widest uppercase font-medium">Our Work</span>
+          <div className="h-px w-8 bg-[#2B7BC8]" />
+          <span className="text-[#4A9FE0] text-xs tracking-widest uppercase font-medium">Our Work</span>
         </div>
         <h2
           style={{ fontFamily: "\'Bebas Neue\', sans-serif", letterSpacing: "0.04em" }}
@@ -55,7 +55,7 @@ export default function Gallery() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {photos.map((photo, i) => (
           <FadeIn key={photo.label} delay={i * 0.08}>
-            <div className="group relative overflow-hidden rounded-xl aspect-[4/3] bg-[#0d0d0d]">
+            <div className="group relative overflow-hidden rounded-xl aspect-[4/3] bg-[#0a1428]">
               <img
                 src={photo.url}
                 alt={photo.alt}

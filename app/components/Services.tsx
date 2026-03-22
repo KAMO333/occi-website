@@ -15,15 +15,15 @@ export default function Services() {
   return (
     <section id="services" className="py-28 max-w-6xl mx-auto px-6">
       <FadeIn>
-        <div className="mb-4 flex items-center gap-3"><div className="h-px w-8 bg-orange-500" /><span className="text-orange-400 text-xs tracking-widest uppercase font-medium">What We Do</span></div>
+        <div className="mb-4 flex items-center gap-3"><div className="h-px w-8 bg-[#2B7BC8]" /><span className="text-[#4A9FE0] text-xs tracking-widest uppercase font-medium">What We Do</span></div>
         <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.04em" }} className="text-5xl md:text-6xl text-white mb-4">OUR SERVICES</h2>
         <p className="text-white/40 max-w-lg mb-16">From a single office to a full campus rollout, we spec, supply, and install.</p>
       </FadeIn>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {services.map((svc, i) => (
           <FadeIn key={svc.title} delay={i * 0.08}>
-            <div className="card-hover border border-white/8 rounded-xl p-7 bg-[#0d0d0d] h-full">
-              <div className="text-orange-500 mb-5">{icons[i]}</div>
+            <div className="card-hover border border-white/10 rounded-xl p-7 bg-[#0a1428] h-full">
+              <div className="text-[#2B7BC8] mb-5">{icons[i]}</div>
               <h3 className="text-white font-semibold text-lg mb-2">{svc.title}</h3>
               <p className="text-white/40 text-sm leading-relaxed">{svc.desc}</p>
             </div>

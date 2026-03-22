@@ -11,7 +11,7 @@ export default function QRPage() {
     <div
       style={{
         fontFamily: "'DM Sans', sans-serif",
-        background: "#0a0a0a",
+        background: "#0d1b3e",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
@@ -36,7 +36,7 @@ export default function QRPage() {
               width: 40,
               height: 40,
               borderRadius: 8,
-              background: "#f97316",
+              background: "#2B7BC8",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -113,7 +113,7 @@ export default function QRPage() {
               display: "inline-flex",
               alignItems: "center",
               gap: 10,
-              background: "#f97316",
+              background: "#2B7BC8",
               color: "#fff",
               fontWeight: 500,
               padding: "14px 32px",
@@ -137,8 +137,8 @@ export default function QRPage() {
           {[1, 2, 3, 4, 5].map((i) => (
             <svg
               key={i}
-              style={{ width: 24, height: 24, color: "#f97316" }}
-              fill="#f97316"
+              style={{ width: 24, height: 24, color: "#2B7BC8" }}
+              fill="#2B7BC8"
               viewBox="0 0 24 24"
             >
               <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />

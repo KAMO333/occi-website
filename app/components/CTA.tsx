@@ -6,12 +6,12 @@ export default function CTA() {
     <section className="py-28 max-w-6xl mx-auto px-6 text-center">
       <FadeIn>
         <div className="relative inline-block mb-8">
-          <div className="absolute inset-0 rounded-full bg-orange-500/20 pulse-ring" />
-          <div className="relative w-16 h-16 rounded-full bg-orange-500/10 border border-orange-500/30 flex items-center justify-center mx-auto"><WAIcon /></div>
+          <div className="absolute inset-0 rounded-full bg-[#2B7BC8]/20 pulse-ring" />
+          <div className="relative w-16 h-16 rounded-full bg-[#2B7BC8]/10 border border-[#2B7BC8]/30 flex items-center justify-center mx-auto"><WAIcon /></div>
         </div>
-        <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.04em" }} className="text-5xl md:text-7xl text-white mb-6">READY TO GET<br /><span style={{ background: "linear-gradient(135deg,#f97316,#fb923c,#fdba74)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>CONNECTED?</span></h2>
+        <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "0.04em" }} className="text-5xl md:text-7xl text-white mb-6">READY TO GET<br /><span style={{ color: "#4A9FE0" }}>CONNECTED?</span></h2>
         <p className="text-white/40 max-w-md mx-auto mb-10 leading-relaxed">Tell us about your space and requirements. We&apos;ll come to site, spec the job, and give you a clear quote.</p>
-        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-400 text-white font-medium px-10 py-5 rounded text-lg transition-colors"><WAIcon /> Start a WhatsApp Conversation</a>
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-[#2B7BC8] hover:bg-[#4A9FE0] text-white font-medium px-10 py-5 rounded text-lg transition-colors"><WAIcon /> Start a WhatsApp Conversation</a>
       </FadeIn>
     </section>
   );
