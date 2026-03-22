@@ -6,6 +6,7 @@ import About from "@/app/components/About";
 import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
 import Gallery from "@/app/components/Gallery";
+import Map from "@/app/components/Map";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Stats />
       <Services />
       <Gallery />
+      <Map />
       <About />
       <CTA />
       <Footer />
