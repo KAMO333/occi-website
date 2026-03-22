@@ -7,6 +7,7 @@ import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
 import Gallery from "@/app/components/Gallery";
 import Map from "@/app/components/Map";
+import ContactForm from "@/app/components/ContactForm";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Map />
       <About />
       <CTA />
+      <ContactForm />
       <Footer />
     </main>
   );
