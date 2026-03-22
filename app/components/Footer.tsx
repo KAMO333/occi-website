@@ -10,6 +10,7 @@ export default function Footer() {
               <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 20, letterSpacing: "0.1em" }}>OCCI</span>
             </div>
             <p className="text-white/30 text-sm leading-relaxed">Obed Computer Cabling Installations.<br />Professional ICT infrastructure for Johannesburg businesses.</p>
+
           </FadeIn>
           <FadeIn delay={0.1}>
             <div className="text-white/20 text-xs tracking-widest uppercase mb-4">Contact</div>
