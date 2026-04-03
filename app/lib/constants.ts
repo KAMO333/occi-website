@@ -38,18 +38,18 @@ export const services = [
     title: "Infrastructure Design",
     desc: "End-to-end ICT infrastructure planning for new builds and renovations. Spec, design, and installation under one roof.",
   },
-  {
-    title: "Alarm Systems",
-    desc: "Professional installation and maintenance of alarm systems for households and commercial buildings.",
-  },
-  {
-    title: "Panic Button",
-    desc: "Panic button installation for households and businesses for rapid emergency response.",
-  },
-  {
-    title: "Computer Repairs",
-    desc: "Full computer services and system support including software and hardware diagnostics, repairs, and optimisation.",
-  },
+  // {
+  //   title: "Alarm Systems",
+  //   desc: "Professional installation and maintenance of alarm systems for households and commercial buildings.",
+  // },
+  // {
+  //   title: "Panic Button",
+  //   desc: "Panic button installation for households and businesses for rapid emergency response.",
+  // },
+  // {
+  //   title: "Computer Repairs",
+  //   desc: "Full computer services and system support including software and hardware diagnostics, repairs, and optimisation.",
+  // },
 ];
 
 export const trustPoints = [

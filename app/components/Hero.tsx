@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 border border-[#2B7BC8]/30 bg-[#2B7BC8]/5 rounded-full px-4 py-1.5 mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-[#2B7BC8] animate-pulse" />
           <span className="text-[#4A9FE0] text-[10px] font-semibold tracking-[0.15em] uppercase">
-            Serving Johannesburg since 2016
+            Serving Gauteng since 2016
           </span>
         </div>
 
