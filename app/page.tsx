@@ -20,9 +20,9 @@ export default function Home() {
       <Stats />
       <Services />
       <Gallery />
-      <Map />
       <About />
       <CTA />
+      <Map />
       <ContactForm />
       <Footer />
     </main>
