@@ -22,7 +22,7 @@ const photos = [
     label: "CCTV Installation",
   },
   {
-    url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
+    url: "https://phoenixstoragelive.blob.core.windows.net/venueimages/2d9e1ed8-e701-5c43-83a8-f937c1518673",
     alt: "Office network infrastructure",
     label: "Infrastructure Design",
   },
