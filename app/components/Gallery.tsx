@@ -27,7 +27,7 @@ const photos = [
     label: "Infrastructure Design",
   },
   {
-    url: "https://images.unsplash.com/photo-1586772002130-b0f3daa6288b?w=800&q=80",
+    url: "https://www.romanelectric.com/wp-content/uploads/2025/10/structured-cabling-systems-Roman-Electric-Co-1536x864.webp",
     alt: "Patch panel structured cabling",
     label: "Structured Cabling",
   },
@@ -39,10 +39,15 @@ export default function Gallery() {
       <FadeIn>
         <div className="mb-4 flex items-center gap-3">
           <div className="h-px w-8 bg-[#2B7BC8]" />
-          <span className="text-[#4A9FE0] text-xs tracking-widest uppercase font-medium">Our Work</span>
+          <span className="text-[#4A9FE0] text-xs tracking-widest uppercase font-medium">
+            Our Work
+          </span>
         </div>
         <h2
-          style={{ fontFamily: "\'Bebas Neue\', sans-serif", letterSpacing: "0.04em" }}
+          style={{
+            fontFamily: "\'Bebas Neue\', sans-serif",
+            letterSpacing: "0.04em",
+          }}
           className="text-5xl md:text-6xl text-white mb-4"
         >
           PREVIOUS INSTALLATIONS
@@ -63,7 +68,9 @@ export default function Gallery() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-4">
-                <span className="text-white/80 text-sm font-medium">{photo.label}</span>
+                <span className="text-white/80 text-sm font-medium">
+                  {photo.label}
+                </span>
               </div>
             </div>
           </FadeIn>

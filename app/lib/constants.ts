@@ -1,6 +1,6 @@
 export const WHATSAPP_NUMBER = "27794913879";
 export const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi OCCI, I'd like to get a quote for your cabling services.",
+  "Hi Obed at OCCI, I'd like to get a quote for your cabling services.",
 );
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 
@@ -8,7 +8,7 @@ export const sectors = ["Private", "SME", "Enterprise", "Government & Schools"];
 
 export const stats = [
   { value: "9+", label: "Years in Operation" },
-  { value: "500+", label: "Installations Completed" },
+  { value: "100+", label: "Installations Completed" },
   { value: "4", label: "Sectors Served" },
   { value: "100%", label: "Professional Installs" },
 ];
