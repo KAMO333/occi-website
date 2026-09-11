@@ -115,15 +115,6 @@ Deployed on [Vercel](https://vercel.com). Every push to `main` triggers an autom
 
 ---
 
-## Pending
-
-- [ ] Point `occi.co.za` domain to Vercel (awaiting DNS access)
-- [ ] Google Business Profile postcard verification
-- [ ] Replace stock gallery images with real job photos
-- [ ] Verify `occi.co.za` on Resend for professional email sending
-- [ ] Logo integration once finalised
-- [ ] Printable review card design
-
 ---
 
 Built by [Kamogelo Mmopane](https://github.com/KAMO333)
